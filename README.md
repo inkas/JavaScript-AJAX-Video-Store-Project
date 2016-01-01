@@ -5,11 +5,9 @@ JavaScript Ajax project for the final exam at Telerik Academy. It's based on HTM
 
 Plugins used:
 
-•	html5 shiv
-•	json2
-
+•	html5 shiv  
+•	json2   
 •	jquerycookie
-
 
 The project is tested with:
 
