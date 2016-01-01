@@ -15,13 +15,13 @@ JavaScript Ajax project for the final exam at Telerik Academy. It's based on HTM
 •	Safari 5.1.7    
 •	Opera 12.12   
 
-##Mobile Browsers:
+#####Mobile Browsers:
 •	Mozilla Firefox 18.0.2    
 •	Chrome 18   
 •	Android's built in browser (4.1.2 Jelly Bean)   
 
 
-_* ActiveX should be enabled_
+_* ActiveX Control should be enabled_
 
 Infinity scroll is implemented.
 ######Services are provided by Telerik.
