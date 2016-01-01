@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Video Store Project &#124; Telerik Academy</title>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+		<meta name="description" content="This is a JavaScript project for the Web Design course" />
+		<meta name="keywords" content="javascript, json, video store, projects, web design, telerik academy" />
+		<meta name="author" content="No Name" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script>
+			//Check if jQuery loaded from CDN
+			if (typeof jQuery == 'undefined') {
+				document.write(unescape('%3Cscript type="text/javascript" src="js/jquery-1.8.3.min.js" type="text/javascript"%3E%3C/script%3E'));
+			}
+		</script>
+		<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha1.js"></script>
+		<script src="js/json2.js"></script>
+		<script src="js/jquerycookie.js"></script>
+		<script src="js/functions.js"></script>
+		<script>
+			$(document).ready(onDocumentReady);
+		</script>
+		<!--[if lte IE 8]>
+			<script src="js/html5.js"></script>
+        <![endif]-->
+		<!--[if IE 9]>
+			<style>
+				.rent-a-movie{background:#8bc62c;filter:none}
+				.return-a-movie{background:#de191c;filter:none}
+			</style>
+		<![endif]-->
+	</head>
+	
+	<body>
+		<div class="wrapper">
+		
+			<!-- Header -->
+			<header class="clear">
+				<div class="logo">
+					<a href="index.html" title="Video Store">
+						<img src="images/logo.png" alt="Logo" />
+					</a>
+				</div>
+			</header>
+			<!-- End of Header -->
+			
+			<!-- Navigation -->
+			<nav>
+				<ul id="main-nav" class="clear">
+					<li>
+						<span class="icons home"></span>
+						<a href="#" title="Home" id="home-btn">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="#" title="Video Library" id="video-nav-btn">
+							Video Library
+						</a>
+					</li>
+					<li>
+						<a href="#" title="Categories" id="categories-nav-btn">
+							Categories
+						</a>
+					</li>
+					<li>
+						<a href="#" title="Actors" id="actors-nav-btn">
+							Actors
+						</a>
+					</li>
+					<li>
+						<a href="#" title="Registration" id="register-nav-btn">
+							Registration
+						</a>
+					</li>
+					<li>
+						<a href="#" title="About" id="about">
+							About
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- End of navigation -->
+			
+			<!-- Main Content -->
+			<section id="main-content">
+				<div class="container-top-border">
+					<div class="conteiner-border-inner"></div>
+				</div>
+				<div id="container"></div>
+				<div class="container-bottom-border">
+					<div class="conteiner-border-inner"></div>
+				</div>
+			</section>
+			<!-- End of Main Content -->
+		</div>
+		
+		<!-- Footer -->
+		<footer>
+			<div id="copy" class="clear">
+				<p>Video Store Project &#124; <a href="http://telerikacademy.com/" rel="nofollow" title="Telerik Academy" target="_blank">Telerik Academy</a></p>
+				<a class="icons scroll-top" href="#" title="Scroll to Top"></a>
+			</div>
+		</footer>
+	</body>
+</html>
