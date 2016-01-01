@@ -21,7 +21,7 @@ JavaScript Ajax project for the final exam at Telerik Academy. It's based on HTM
 •	Android's built in browser (4.1.2 Jelly Bean)   
 
 
-___
 _* ActiveX should be enabled_
 
-Infinity scroll is implemented. Services are provided by Telerik.
+Infinity scroll is implemented.
+######Services are provided by Telerik.
